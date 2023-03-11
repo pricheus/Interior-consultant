@@ -1,0 +1,118 @@
+body{
+box-sizing: content-box;
+font-family: 'Montserrat', sans-serif;
+background: #181719;
+color: hsl(0, 0%, 100%);
+margin-left: 3.2%;
+margin-right: 3.2%;
+
+}
+
+#navForComputer{
+    display: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+}
+
+#thisInterior{
+    border: 1px solid #FFFFFF;
+    width: 140px;
+height: 31px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-family: 'Crimson Pro', serif;
+position: relative;
+right: 11%;
+top: 2.4484536%;
+
+}
+
+#navForPhone{
+position: relative;
+top: 20%;
+right: 2%;
+}
+
+h1{
+    font-family: 'Lora';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 46px;
+}
+
+#arrowNextToReadMe{
+    position: relative;
+    top: 0.3ch;
+    left: 0.75ch;
+}
+
+
+#backGround{
+    width: 93.6%;
+height: 34.0618557%;
+position: relative;
+}
+
+#designerFace{
+    border-radius: 50%;
+    width: 4ch;
+    height: 4ch;
+    position: relative;
+    top: 13.17px;
+    bottom: 88.24px;
+    left: 22.68px;
+    right: 240.73px;
+   
+}
+
+#nextToFace{
+    position: relative;
+    left: 73.17px;
+    right: 93.8px;
+    top: 16.83px;
+    bottom: 108.73px;
+}
+
+#blackBox{
+    position: absolute;
+   top: 540px;
+   left: 10.8666667%;
+   right: 6.13333333%;
+   bottom: 102PX;
+width: 76%;
+height: 17.7835052%;
+background: #181719;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+#designer{
+    display: flex;
+} 
+
+#interiorDesigner{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 12px;
+
+color: #828282;
+}
+
+#DesignedBy{
+    font-family: 'Lora';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 23px;
+position: relative;
+top: 10px;
+left: 19px;
+right: 71px;
+}

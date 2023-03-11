@@ -116,3 +116,7 @@ top: 10px;
 left: 19px;
 right: 71px;
 }
+
+@media screen and (max-width:480px) {
+    
+}

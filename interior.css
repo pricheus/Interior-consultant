@@ -118,5 +118,7 @@ right: 71px;
 }
 
 @media screen and (max-width:480px) {
-    
+    #navForComputer{
+    display: flex;
+}
 }

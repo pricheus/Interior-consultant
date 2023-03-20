@@ -154,8 +154,70 @@ top: 2.4484536%;
 /* TABLETS*/
 @media screen and (min-width:769px){
 
+        #theWholeStuff{
+            display: flex;
+        }
+        #navForComputer{
+            display: flex;
+            list-style: none;
+
+        }
+        
+    #navForPhone{
+    display: none;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-around;    
+    }
+
+    ul li{
+        list-style: none;
+        margin: 0 3ch 3ch 0;
+    }
+
+
+    #backGround{
+        width: 51.1805556%;
+    height: 34.0618557%;
+    position: relative;
+    }
+    
+    #thisInterior{
+        
+    position: relative;
+    right: 15.5%;
+    top: 2.4484536%;
+
+    }
+    #blackBox{
+        position: absolute;
+        top: 620px;
+        left: 12.8666667%;
+        right: 6.13333333%;
+        bottom: 102PX;
+
+    }
+
+
+    #menuIcon{
+        position: absolute;
+        top: 0.8ch;
+        left: 1.7ch;
+        
+    }
+}
+/* SMALL COMPUTER*/
+@media screen and (min-width:1024px){
+    
+}
+/* AVERAGE COMPUTER*/
+@media screen and (min-width:1200px){
     #theWholeStuff{
         display: flex;
+        justify-content: space-around;
+        margin-top: 15.27777777777778%;
     }
     #navForComputer{
         display: flex;
@@ -179,11 +241,11 @@ ul li{
 
 
 #backGround{
-    width: 51.1805556%;
-height: 34.0618557%;
+    width:51.18055555555556% ;
+height: 51.38888888888889%;
 position: relative;
 }
- 
+
 #thisInterior{
     
 position: relative;
@@ -191,13 +253,13 @@ right: 15.5%;
 top: 2.4484536%;
 
 }
+
 #blackBox{
     position: absolute;
-    top: 620px;
-    left: 12.8666667%;
-    right: 6.13333333%;
-    bottom: 102PX;
-
+   
+    width: 28.47222222222222%;
+    height: 13.125%;
+  
 }
 
 
@@ -207,14 +269,6 @@ top: 2.4484536%;
     left: 1.7ch;
     
 }
-}
-/* SMALL COMPUTER*/
-@media screen and (min-width:1024px){
-    
-}
-/* AVERAGE COMPUTER*/
-@media screen and (min-width:1200px){
-    
 }
 
 /*LARGE COMPUTER */

@@ -12,10 +12,17 @@ margin-right: 2%;
     display: none;
 }
 
+#navForComputer a{
+text-decoration: none;
+color: #FFFFFF;
+}
+
 header{
     display: flex;
     justify-content: space-around;
 }
+
+
 
 #thisInterior{
     border: 1px solid #FFFFFF;
@@ -36,6 +43,8 @@ position: relative;
 top: 20%;
 right: 2%;
 }
+
+
 
 h1{
     font-family: 'Lora';
